@@ -1,0 +1,24 @@
+*:root {
+  --dp-pink: deeppink;
+  --black: black;
+  --br: 20px;
+  --m-center: 1rem auto;
+  --txt: center;
+  --pk-s: 0.5rem;
+  --border: thin solid var(--dp-pink);
+}
+
+body {
+  background-color: #ddd;
+}
+
+h1 {
+  background-color: var(--black);
+  max-width: 98%;
+  border-radius: 5rem;
+  margin: var(--m-center);
+  color: deeppink;
+  text-align: center;
+  padding: var(--pk-s);
+  border: var(--border);
+}
